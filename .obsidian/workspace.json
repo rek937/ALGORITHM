@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "4c27f3fdacbdca3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fc062bac7f32ff5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3dd63e200e13c46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/MyNote/1. Linear Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88bc103c41b42f08",
+    "type": "split",
+    "children": [
+      {
+        "id": "f83efe46eb3a9f83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4235f642793890b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f025b80032611c12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dfc478af9c45793",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cb77f1fcbdae3188",
+    "type": "split",
+    "children": [
+      {
+        "id": "eadae1f0bca15980",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e0756422f428aab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ML/MyNote/1. Linear Model.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ad205dfa793f1f0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ML/MyNote/1. Linear Model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14891b1085ccbd3d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d849237ab3b4f659",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ML/MyNote/1. Linear Model.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d3dd63e200e13c46",
+  "lastOpenFiles": [
+    "Markdown 语法.md",
+    "ML/MyNote/1. Linear Model.md",
+    "Markdown 语法.pdf",
+    "ML/Source/CS229Note/EM.pdf",
+    "ML/MyNote",
+    "ML/未命名.md",
+    "未命名.md"
+  ]
+}
