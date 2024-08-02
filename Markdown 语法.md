@@ -35,16 +35,20 @@
 #### 数学语法：
 
 |           Markdown           | 效果     |
-| :---------------------------: | -------- |
+| :---------------------------: | :--------: |
 |               ^               | 上标     |
 |              __              | 下标     |
 |           \$公式\$           | 公式范围 |
 |       \frac{分子}{分母}       | 分数     |
-|      \left(公式\ruight)      | 大括号   |
+|      \left(公式\right)      | 大括号   |
 |            \vec{a}            | 向量     |
 |        \int_start^end        | 定积分   |
 | \lim_{n\rightarrow+something} | 极限     |
 |        \sum_start^end        | 累加     |
 |            \cdots            | 省略号   |
 |           \partial           | 偏导     |
-|                              |          |
+|\begin{cases} <br /> value & condition \ <br />value1 & condition1 <br /> \end{cases}        |     分段函数     |
+
+
+#### mermaid用法
+https://www.cnblogs.com/LYinMX/p/13347646.html
