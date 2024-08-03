@@ -3,16 +3,21 @@ from bs4 import BeautifulSoup
 import logging
 import os
 import time
+import random
 
 PAGE_FLAG = True
 SOURCE_FLAG = True
 
-
 header = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"}
 
+ip_addr = "http://127.0.0.1:7897"
 # proxy = {"http" : "127.0.0.1:7889", "https" : "127.0.0.1:7889"}
-os.environ["HTTP_PROXY"] = "http://192.168.5.9:7889"
-os.environ["HTTPS_PROXY"] = "http://192.168.5.9:7899"
+os.environ["HTTP_PROXY"] = ip_addr
+os.environ["HTTPS_PROXY"] = ip_addr
+# proxies = {
+#     "http": os.environ.get("HTTP_PROXY"),
+#     "https": os.environ.get("HTTPS_PROXY")
+# }
 
 project_name = "./Beautiful_soup_crawler/pttNBA"
 file_name = "pttNBA"
@@ -44,8 +49,10 @@ while PAGE_FLAG:
     print(url)
     try:
         response = requests.get(url, headers=header)
+        # response = requests.get(url, headers=header, proxies=proxies)
         logging.info(f"Successfully accessed the website: {response.status_code}")
     except requests.exceptions.RequestException as e:
+        print(e)
         logging.error(f"An error occurred: {e}")
     else:
         with open(HTML_file, "w", encoding="utf-8") as f:
@@ -89,7 +96,8 @@ while PAGE_FLAG:
         for article in articles_data:
             f.write(f"{article['标题']};{article['热度']};{article['日期']}\n")
     
-    time.sleep(1)
+    delay_time = random.uniform(0, 2)
+    time.sleep(delay_time)
     
 
 

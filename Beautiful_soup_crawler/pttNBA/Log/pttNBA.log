@@ -74,3 +74,152 @@
 2024-08-03 15:09:47,101:INFO:Successfully accessed the website: 200
 2024-08-03 15:09:48,682:INFO:Successfully accessed the website: 200
 2024-08-03 15:09:50,254:INFO:Successfully accessed the website: 200
+2024-08-03 15:57:56,658:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022A4878E8B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 15:58:21,151:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023EE3254520>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 15:59:27,172:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021DEA4CE730>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 15:59:49,082:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DBFAF4E970>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:01:57,466:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021EFE5B62E0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:03:16,127:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000242E9E4E7C0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:03:38,102:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002048068E7F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:04:00,218:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000229020525B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:06:21,888:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000219D934F940>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:07:12,994:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C13644E820>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:11:04,569:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014E23C8E8B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 16:11:47,628:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002C2C210EB20>: Failed to establish a new connection: [WinError 10060] \xe7\x94\xb1\xe4\xba\x8e\xe8\xbf\x9e\xe6\x8e\xa5\xe6\x96\xb9\xe5\x9c\xa8\xe4\xb8\x80\xe6\xae\xb5\xe6\x97\xb6\xe9\x97\xb4\xe5\x90\x8e\xe6\xb2\xa1\xe6\x9c\x89\xe6\xad\xa3\xe7\xa1\xae\xe7\xad\x94\xe5\xa4\x8d\xe6\x88\x96\xe8\xbf\x9e\xe6\x8e\xa5\xe7\x9a\x84\xe4\xb8\xbb\xe6\x9c\xba\xe6\xb2\xa1\xe6\x9c\x89\xe5\x8f\x8d\xe5\xba\x94\xef\xbc\x8c\xe8\xbf\x9e\xe6\x8e\xa5\xe5\xb0\x9d\xe8\xaf\x95\xe5\xa4\xb1\xe8\xb4\xa5\xe3\x80\x82'))"
+2024-08-03 16:13:06,001:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D1E20D3580>: Failed to establish a new connection: [WinError 10060] \xe7\x94\xb1\xe4\xba\x8e\xe8\xbf\x9e\xe6\x8e\xa5\xe6\x96\xb9\xe5\x9c\xa8\xe4\xb8\x80\xe6\xae\xb5\xe6\x97\xb6\xe9\x97\xb4\xe5\x90\x8e\xe6\xb2\xa1\xe6\x9c\x89\xe6\xad\xa3\xe7\xa1\xae\xe7\xad\x94\xe5\xa4\x8d\xe6\x88\x96\xe8\xbf\x9e\xe6\x8e\xa5\xe7\x9a\x84\xe4\xb8\xbb\xe6\x9c\xba\xe6\xb2\xa1\xe6\x9c\x89\xe5\x8f\x8d\xe5\xba\x94\xef\xbc\x8c\xe8\xbf\x9e\xe6\x8e\xa5\xe5\xb0\x9d\xe8\xaf\x95\xe5\xa4\xb1\xe8\xb4\xa5\xe3\x80\x82'))"
+2024-08-03 16:14:02,851:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000016200B4EB80>: Failed to establish a new connection: [WinError 10060] \xe7\x94\xb1\xe4\xba\x8e\xe8\xbf\x9e\xe6\x8e\xa5\xe6\x96\xb9\xe5\x9c\xa8\xe4\xb8\x80\xe6\xae\xb5\xe6\x97\xb6\xe9\x97\xb4\xe5\x90\x8e\xe6\xb2\xa1\xe6\x9c\x89\xe6\xad\xa3\xe7\xa1\xae\xe7\xad\x94\xe5\xa4\x8d\xe6\x88\x96\xe8\xbf\x9e\xe6\x8e\xa5\xe7\x9a\x84\xe4\xb8\xbb\xe6\x9c\xba\xe6\xb2\xa1\xe6\x9c\x89\xe5\x8f\x8d\xe5\xba\x94\xef\xbc\x8c\xe8\xbf\x9e\xe6\x8e\xa5\xe5\xb0\x9d\xe8\xaf\x95\xe5\xa4\xb1\xe8\xb4\xa5\xe3\x80\x82'))"
+2024-08-03 16:14:09,556:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D115D90880>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:14:55,149:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021FC44D07F0>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:16:48,058:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000016513F94640>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:18:38,186:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002828FA0E850>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:22:44,670:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B32E8CE850>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:22:54,330:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B44174F790>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:23:06,914:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002834418DA90>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:25:20,027:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F30BBD45E0>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:29:47,668:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001747588F880>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:30:26,546:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000276B8E8E850>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:31:05,015:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002340A50D9D0>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:31:13,218:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002127FE77220>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:32:59,234:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001255040E880>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:33:29,651:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001951F653670>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 16:35:38,924:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:40,286:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:41,648:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:42,924:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:44,280:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:45,583:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:46,925:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:48,289:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:49,574:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:35:50,934:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:36:51,820:ERROR:b"An error occurred: HTTPSConnectionPool(host='www.1ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+2024-08-03 16:37:14,368:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:15,816:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:17,251:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:18,608:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:20,047:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:21,647:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:23,066:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:24,426:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:25,867:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:37:27,303:INFO:b'Successfully accessed the website: 200'
+2024-08-03 16:55:55,670:INFO:Successfully accessed the website: 404
+2024-08-03 16:56:01,692:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6502.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:07,714:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6503.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:13,745:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6504.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:19,798:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6505.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:25,835:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6506.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:31,865:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6507.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:37,884:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6508.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:43,903:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6509.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:49,927:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6510.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:56:55,943:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6511.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:57:01,962:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6512.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:57:07,994:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6513.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:57:14,013:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6514.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:57:20,036:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6515.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:57:26,064:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6516.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:57:32,088:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs1/NBA/index6517.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:58:18,424:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt1.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 16:58:57,605:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000138BD07A070>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 17:01:24,113:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 17:01:50,982:INFO:Successfully accessed the website: 200
+2024-08-03 17:01:52,602:INFO:Successfully accessed the website: 200
+2024-08-03 17:01:54,518:INFO:Successfully accessed the website: 200
+2024-08-03 17:01:56,132:INFO:Successfully accessed the website: 200
+2024-08-03 17:01:57,747:INFO:Successfully accessed the website: 200
+2024-08-03 17:01:59,611:INFO:Successfully accessed the website: 200
+2024-08-03 17:02:01,236:INFO:Successfully accessed the website: 200
+2024-08-03 17:02:02,843:INFO:Successfully accessed the website: 200
+2024-08-03 17:02:04,435:INFO:Successfully accessed the website: 200
+2024-08-03 17:02:06,059:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:15,123:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:16,759:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:18,377:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:19,986:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:21,650:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:23,551:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:25,147:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:26,770:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:28,414:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:30,021:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:39,181:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:41,028:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:42,652:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:44,328:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:45,936:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:48,063:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:49,661:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:51,346:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:52,973:INFO:Successfully accessed the website: 200
+2024-08-03 17:04:54,576:INFO:Successfully accessed the website: 200
+2024-08-03 17:05:07,911:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022F1194F940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 17:05:47,350:ERROR:An error occurred: b"HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002624F816550>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 17:07:36,338:ERROR:An error occurred: b"HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000207F2A8E970>: Failed to establish a new connection: [WinError 10061] \xe7\x94\xb1\xe4\xba\x8e\xe7\x9b\xae\xe6\xa0\x87\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe7\xa7\xaf\xe6\x9e\x81\xe6\x8b\x92\xe7\xbb\x9d\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe8\xbf\x9e\xe6\x8e\xa5\xe3\x80\x82')))"
+2024-08-03 17:08:00,650:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFD8C8DDF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 17:11:27,412:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000229F8537220>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 17:12:41,825:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index6501.html (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000197EF50D9D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 17:14:04,793:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:06,771:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:08,499:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:10,234:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:11,860:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:13,574:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:15,290:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:17,608:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:19,326:INFO:Successfully accessed the website: 200
+2024-08-03 17:14:20,959:INFO:Successfully accessed the website: 200
+2024-08-03 17:32:50,294:INFO:Successfully accessed the website: 200
+2024-08-03 17:32:52,105:INFO:Successfully accessed the website: 200
+2024-08-03 17:32:54,031:INFO:Successfully accessed the website: 200
+2024-08-03 17:32:55,826:INFO:Successfully accessed the website: 200
+2024-08-03 17:32:57,546:INFO:Successfully accessed the website: 200
+2024-08-03 17:32:59,404:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:01,025:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:02,780:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:04,426:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:06,072:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:10,808:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:24,525:INFO:Successfully accessed the website: 200
+2024-08-03 17:33:39,156:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:11,207:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:31,522:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:34,022:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:36,613:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:38,530:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:40,639:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:42,476:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:43,341:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:45,080:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:45,856:INFO:Successfully accessed the website: 200
+2024-08-03 17:34:46,655:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:10,323:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:11,813:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:13,291:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:14,870:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:17,214:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:19,102:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:20,248:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:21,083:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:22,664:INFO:Successfully accessed the website: 200
+2024-08-03 18:41:24,648:INFO:Successfully accessed the website: 200
