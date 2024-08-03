@@ -1,0 +1,1 @@
+2024-08-02 21:32:47,890:ERROR:An error occurred: HTTPSConnectionPool(host='www.1ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
