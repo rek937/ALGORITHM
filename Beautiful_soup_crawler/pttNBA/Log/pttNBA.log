@@ -1,1 +1,76 @@
 2024-08-02 21:32:47,890:ERROR:An error occurred: HTTPSConnectionPool(host='www.1ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 09:53:24,792:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 09:53:29,215:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 09:54:33,530:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 09:57:28,821:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 09:57:34,840:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:00:15,991:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:00:32,787:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:05:26,818:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:05:47,516:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:06:02,786:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:06:16,633:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:06:24,627:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:06:32,262:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:06:39,539:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:06:51,610:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:08:01,145:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F1363535E0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2024-08-03 10:09:28,303:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D45FFB3880>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2024-08-03 10:14:31,959:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023807EF9490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 10:16:26,236:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002024A113940>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')))
+2024-08-03 10:16:42,730:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000199EA5848B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 10:17:56,445:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2024-08-03 10:28:06,370:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000273F5C58730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-08-03 14:22:03,069:INFO:Successfully accessed the website: 200
+2024-08-03 14:22:18,765:ERROR:An error occurred: HTTPSConnectionPool(host='www.ptt1.cc', port=443): Max retries exceeded with url: /bbs/NBA/index1.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-03 14:23:07,118:INFO:Successfully accessed the website: 200
+2024-08-03 14:23:07,668:INFO:Successfully accessed the website: 200
+2024-08-03 14:25:55,481:INFO:Successfully accessed the website: 200
+2024-08-03 14:25:56,051:INFO:Successfully accessed the website: 200
+2024-08-03 14:32:24,544:INFO:Successfully accessed the website: 200
+2024-08-03 14:33:31,400:INFO:Successfully accessed the website: 200
+2024-08-03 14:34:30,741:INFO:Successfully accessed the website: 200
+2024-08-03 14:34:37,349:INFO:Successfully accessed the website: 200
+2024-08-03 14:34:57,954:INFO:Successfully accessed the website: 200
+2024-08-03 14:47:14,652:INFO:Successfully accessed the website: 200
+2024-08-03 14:47:34,752:INFO:Successfully accessed the website: 200
+2024-08-03 14:47:35,370:INFO:Successfully accessed the website: 200
+2024-08-03 14:49:41,775:INFO:Successfully accessed the website: 200
+2024-08-03 14:49:42,382:INFO:Successfully accessed the website: 200
+2024-08-03 14:50:10,517:INFO:Successfully accessed the website: 200
+2024-08-03 14:50:11,118:INFO:Successfully accessed the website: 200
+2024-08-03 14:50:21,059:INFO:Successfully accessed the website: 200
+2024-08-03 14:50:21,659:INFO:Successfully accessed the website: 200
+2024-08-03 14:51:13,355:INFO:Successfully accessed the website: 200
+2024-08-03 14:51:14,949:INFO:Successfully accessed the website: 200
+2024-08-03 14:52:03,120:INFO:Successfully accessed the website: 200
+2024-08-03 14:52:03,820:INFO:Successfully accessed the website: 200
+2024-08-03 14:53:01,675:INFO:Successfully accessed the website: 200
+2024-08-03 14:53:02,272:INFO:Successfully accessed the website: 200
+2024-08-03 14:55:41,647:INFO:Successfully accessed the website: 200
+2024-08-03 14:55:42,346:INFO:Successfully accessed the website: 200
+2024-08-03 14:59:05,809:INFO:Successfully accessed the website: 200
+2024-08-03 14:59:06,466:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:01,548:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:03,155:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:23,595:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:25,335:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:26,932:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:29,477:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:31,095:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:33,132:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:34,739:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:36,339:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:37,899:INFO:Successfully accessed the website: 200
+2024-08-03 15:01:39,461:INFO:Successfully accessed the website: 200
+2024-08-03 15:08:06,852:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:35,973:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:37,566:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:39,130:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:40,684:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:42,247:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:43,903:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:45,495:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:47,101:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:48,682:INFO:Successfully accessed the website: 200
+2024-08-03 15:09:50,254:INFO:Successfully accessed the website: 200

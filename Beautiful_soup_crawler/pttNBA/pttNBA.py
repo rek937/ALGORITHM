@@ -2,10 +2,17 @@ import requests
 from bs4 import BeautifulSoup
 import logging
 import os
+import time
 
-url = "https://www.ptt.cc/bbs/NBA/index1.html"
+PAGE_FLAG = True
+SOURCE_FLAG = True
+
 
 header = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"}
+
+# proxy = {"http" : "127.0.0.1:7889", "https" : "127.0.0.1:7889"}
+os.environ["HTTP_PROXY"] = "http://192.168.5.9:7889"
+os.environ["HTTPS_PROXY"] = "http://192.168.5.9:7899"
 
 project_name = "./Beautiful_soup_crawler/pttNBA"
 file_name = "pttNBA"
@@ -22,48 +29,67 @@ source_dir = f"{project_name}/Source"
 if not os.path.exists(source_dir): os.mkdir(source_dir)
 source_file = os.path.join(source_dir, f"{file_name}.csv")
 
-logging.basicConfig(filename=log_file, level=logging.ERROR,
+logging.basicConfig(filename=log_file, level=logging.INFO,
                     format="%(asctime)s:%(levelname)s:%(message)s")
 
-try:
-    response = requests.get(url, headers=header)
-except requests.exceptions.RequestException as e:
-    logging.error(f"An error occurred: {e}")
-else:
-    with open(HTML_file, "w", encoding="utf-8") as f:
-        f.write(response.text)
+# The program is first executed
+if SOURCE_FLAG:
+    with open(source_file, "w", encoding="utf-8") as f:
+            f.write("标题;热度;日期\n")
 
-suop = BeautifulSoup(response.text, "html.parser")
-articles = suop.find_all("div", class_="r-ent")
-
-articles_data = []
-# get title, popular and date of the article
-# articles_data = [ {}, {}, {}, ...]
-for article in articles:
-    article_data = {}
-
-    title = article.find("div", class_="title")
-    if title and title.a:
-        article_data["标题"] = title.a.text
+i = 6500
+while PAGE_FLAG:
+    i = i + 1
+    url = f"https://www.ptt.cc/bbs/NBA/index{i}.html"
+    print(url)
+    try:
+        response = requests.get(url, headers=header)
+        logging.info(f"Successfully accessed the website: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        logging.error(f"An error occurred: {e}")
     else:
-        article_data["标题"] = "没有标题"
+        with open(HTML_file, "w", encoding="utf-8") as f:
+            f.write(response.text)
 
-    popular = article.find("div", class_="nrec")
-    if popular and popular.span:
-        article_data["热度"] = popular.text
-    else:
-        article_data["热度"] = "N/A"
+    suop = BeautifulSoup(response.text, "html.parser")
+    articles = suop.find_all("div", class_="r-ent")
 
-    date = article.find("div", class_="date")
-    if date:
-        article_data["日期"] = date.text
-    else:
-        article_data["日期"] = "N/A"
+    page_signals = suop.find_all("div", class_="btn-group btn-group-paging")
+    for signal in page_signals:
+        if signal.find("a", class_="btn wide disabled"):
+            PAGE_FLAG = False
 
-    articles_data.append(article_data)
+    articles_data = []
+    # get title, popular and date of the article
+    # articles_data = [ {}, {}, {}, ...]
+    for article in articles:
+        article_data = {}
 
-with open(source_file, "w", encoding="utf-8") as f:
-    f.write("标题，热度，日期\n")
-    for article in articles_data:
-        f.write(f"{article['标题']};{article['热度']};{article['日期']}\n")
+        title = article.find("div", class_="title")
+        if title and title.a:
+            article_data["标题"] = title.a.text
+        else:
+            article_data["标题"] = "没有标题"
+
+        popular = article.find("div", class_="nrec")
+        if popular and popular.span:
+            article_data["热度"] = popular.text
+        else:
+            article_data["热度"] = "N/A"
+
+        date = article.find("div", class_="date")
+        if date:
+            article_data["日期"] = date.text
+        else:
+            article_data["日期"] = "N/A"
+
+        articles_data.append(article_data)
+    
+    with open(source_file, "a", encoding="utf-8") as f:
+        for article in articles_data:
+            f.write(f"{article['标题']};{article['热度']};{article['日期']}\n")
+    
+    time.sleep(1)
+    
+
 
