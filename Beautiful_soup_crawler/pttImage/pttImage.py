@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# DELL : 192.168.5.9:7897
+# HORNOR : 1270.0.0.1:7897
 import requests
 from bs4 import BeautifulSoup
 import logging 
@@ -9,7 +12,7 @@ url = "https://www.ptt.cc/bbs/Beauty/M.1686997472.A.FDA.html"
 header = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"}
 cookie = {"over18" : "1"}
 
-ip_addr = "http://127.0.0.1:7897"
+ip_addr = "192.168.5.9:7897"
 os.environ["HTTP_PROXY"] = ip_addr
 os.environ["HTTPS_PROXY"] = ip_addr
 

@@ -1,0 +1,5 @@
+2024-08-04 14:51:33,078:INFO:Successfully accessed the website: 200
+2024-08-04 14:58:00,081:INFO:Successfully accessed the website: 200
+2024-08-04 14:58:40,318:ERROR:An error occurred: HTTPSConnectionPool(host='www.spiderbuf.cn', port=443): Max retries exceeded with url: /playground/s05 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-04 14:58:55,601:INFO:Successfully accessed the website: 200
+2024-08-04 15:04:55,301:INFO:Successfully accessed the website: 200
