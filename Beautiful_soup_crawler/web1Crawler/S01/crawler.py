@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # DELL : 192.168.5.9:7897
-# HORNOR : 1270.0.0.1:7897
+# HORNOR : 127.0.0.1:7897
 # Description: Simply use the requests lib
 
 import requests
@@ -14,7 +14,7 @@ import csv
 
 init(autoreset=True)
 
-ip_addr = "192.168.5.9:7897"
+ip_addr = "127.0.0.1:7897"
 os.environ["HTTP_PROXY"] = ip_addr
 os.environ["HTTPS_PROXY"] = ip_addr
 
