@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# DELL : 192.168.5.9:7897
-# HORNOR : 1270.0.0.1:7897
+# HP : 192.168.5.9:7897
+# HORNOR : 127.0.0.1:7897
 import requests
 from bs4 import BeautifulSoup
 import logging
@@ -13,7 +13,7 @@ SOURCE_FLAG = True
 
 header = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"}
 
-ip_addr = "http://192.168.5.9:7897"
+ip_addr = "http://127.0.0.1:7897"
 # proxy = {"http" : "127.0.0.1:7889", "https" : "127.0.0.1:7889"}
 os.environ["HTTP_PROXY"] = ip_addr
 os.environ["HTTPS_PROXY"] = ip_addr
@@ -49,14 +49,18 @@ while PAGE_FLAG:
     try:
         response = requests.get(url, headers=header)
         # response = requests.get(url, headers=header, proxies=proxies)
-        logging.info(f"Successfully accessed the website: {response.status_code}")
     except requests.exceptions.RequestException as e:
         logging.error(f"An error occurred: {e}")
     else:
-        suop = BeautifulSoup(response.text, "html.parser")
-        articles = suop.find_all("div", class_="r-ent")
+        if response.status_code != 404:
+            logging.info(f"Successfully accessed the website: {response.status_code}")
+        else:
+            logging.warning(f"An warning occurred: {response.status_code}")
 
-    page_signals = suop.find_all("div", class_="btn-group btn-group-paging")
+    soup = BeautifulSoup(response.text, "html.parser")
+    articles = soup.find_all("div", class_="r-ent")
+
+    page_signals = soup.find_all("div", class_="btn-group btn-group-paging")
     for signal in page_signals:
         if signal.find("a", class_="btn wide disabled"):
             PAGE_FLAG = False
