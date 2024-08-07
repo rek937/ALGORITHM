@@ -2,3 +2,4 @@
 2024-08-04 20:42:36,896:INFO:Successfully accessed the website: 200
 2024-08-04 20:43:42,249:INFO:Successfully accessed the website: 200
 2024-08-04 20:43:42,297:INFO:Data written to csv file
+2024-08-05 14:20:37,747:ERROR:An error occurred: HTTPSConnectionPool(host='www.spiderbuf.cn', port=443): Max retries exceeded with url: /playground/s08 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020FCCA53B50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))

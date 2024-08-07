@@ -1,0 +1,35 @@
+2024-08-05 14:21:44,497:INFO:Successfully accessed the website: 400
+2024-08-05 14:22:44,445:WARNING:An warning occurred: [31m404
+2024-08-05 14:23:10,243:WARNING:An warning occurred: [31m404
+2024-08-05 14:27:51,661:WARNING:An warning occurred: [31m404
+2024-08-05 14:28:34,877:WARNING:An warning occurred: [31m404
+2024-08-05 14:29:57,089:WARNING:An warning occurred: [31m404
+2024-08-05 14:34:20,580:INFO:Successfully accessed the website: 200
+2024-08-05 14:36:43,117:INFO:Successfully accessed the website: 200
+2024-08-05 14:37:28,399:WARNING:An warning occurred: [31m404
+2024-08-05 14:38:07,798:WARNING:An warning occurred: [31m404
+2024-08-05 14:40:07,603:WARNING:An warning occurred: [31m404
+2024-08-05 14:45:29,921:INFO:Successfully accessed the website: 200
+2024-08-05 17:52:52,459:INFO:Successfully accessed the website: 200
+2024-08-05 17:54:14,732:INFO:Successfully accessed the website: 200
+2024-08-05 17:54:52,763:ERROR:An error occurred: HTTPSConnectionPool(host='www.spiderbuf.cn', port=443): Max retries exceeded with url: /playground/e02 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-05 17:54:58,807:INFO:Successfully accessed the website: 200
+2024-08-05 17:55:07,285:ERROR:An error occurred: HTTPSConnectionPool(host='www.spiderbuf.cn', port=443): Max retries exceeded with url: /playground/e02 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-05 17:55:25,593:ERROR:An error occurred: HTTPSConnectionPool(host='www.spiderbuf.cn', port=443): Max retries exceeded with url: /playground/e02 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2024-08-05 17:56:01,352:INFO:Successfully accessed the website: 200
+2024-08-05 17:58:42,829:INFO:Successfully accessed the website: 200
+2024-08-05 17:58:56,392:INFO:Successfully accessed the website: 200
+2024-08-05 17:59:20,931:INFO:Successfully accessed the website: 200
+2024-08-05 18:01:11,878:INFO:Successfully accessed the website: 200
+2024-08-05 18:04:10,480:INFO:Successfully accessed the website: 200
+2024-08-05 18:05:04,520:INFO:Successfully accessed the website: 200
+2024-08-05 18:05:24,887:INFO:Successfully accessed the website: 200
+2024-08-05 18:07:24,315:INFO:Successfully accessed the website: 200
+2024-08-05 18:10:52,205:INFO:New test begin !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2024-08-05 18:10:52,205:INFO:Successfully accessed the website: 200
+2024-08-05 18:11:53,728:INFO:New test begin !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2024-08-05 18:11:53,728:INFO:Successfully accessed the website: 200
+2024-08-05 18:14:42,267:INFO:New test begin !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2024-08-05 18:14:42,267:INFO:Successfully accessed the website: 200
+2024-08-06 16:00:40,161:INFO:New test begin !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2024-08-06 16:00:40,161:INFO:Successfully accessed the website: 200

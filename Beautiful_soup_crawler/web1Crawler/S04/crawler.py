@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # DELL : 192.168.5.9:7897
-# HORNOR : 1270.0.0.1:7897
+# HORNOR : 127.0.0.1:7897
 # Description: HTTP POST request data scraping
 
 import requests
