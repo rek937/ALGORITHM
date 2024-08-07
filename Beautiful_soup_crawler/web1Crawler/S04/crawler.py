@@ -56,13 +56,13 @@ else:
 
 soup = BeautifulSoup(response.text, "html.parser")
 table = soup.find("table")
-table_data = table.find_all("td")
+table_data = table.find_all("td") # type: ignore
 table_data = [table_data.text for table_data in table_data]
 table_header = ["Serial Number", "IP Address", "MAC Address", "Device Name", "Device Type", "Operating System", "Open Ports", "Online Status"]
 data = [
     dict(zip(table_header, table_data[i : i + len(table_header)])) for i in range(0, len(table_data), len(table_header))
 ]
-print(type(data))
+
 with open(source_file, 'w', encoding="utf8") as f:
     writer = csv.DictWriter(f, fieldnames=table_header)
     writer.writeheader()
