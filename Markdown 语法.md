@@ -3,6 +3,8 @@
 1. 有**六个**级别，级别最大的是 \# 逐渐增加。
 2. 平时正文不用 **#**，小标题 **五个**，大标题 **四个**。
 
+---
+
 #### 表格设置：
 
 语法：
@@ -21,6 +23,8 @@
 | Header    | Title       |
 | Paragraph | Text        |
 
+---
+
 #### 小语法：
 
 | Markdown                          | 效果     |
@@ -31,6 +35,8 @@
 | -<br />- <br />-               | 无序列表 |
 | \`\`\`<br />代码<br />\`\`\` | 代码块   |
 | \<br />| 回车|
+
+---
 
 #### 数学语法：
 
@@ -49,6 +55,7 @@
 |           \partial           | 偏导     |
 |\begin{cases} <br /> value & condition \ <br />value1 & condition1 <br /> \end{cases}        |     分段函数     |
 
+---
 
 #### mermaid用法
 https://www.cnblogs.com/LYinMX/p/13347646.html
