@@ -1,0 +1,31 @@
+#ul2web{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width : 200px;
+    background-color:rgb(235, 223, 223);
+    border-style: solid;
+    #youtube{
+        border-style:dashed none dashed;
+    }
+    #stackoverflow{
+        border-style:none none dotted;
+    }
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+#ul2web a{
+    color: black;
+    display: block;
+    width: 200px;
+    padding: 8px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#ul2web a:hover{
+    background-color: aqua;
+    color: brown;
+}

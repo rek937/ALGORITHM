@@ -39,6 +39,21 @@ hr{
     text-orientation: upright;
 }
 
+div{
+    width: 500px;
+    height: 100px;
+    overflow:scroll;
+}
+
+div p::first-line{
+    color: blue;
+}
+
+div p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
 #link-to-tab1{
     text-decoration: none;
     color: wheat;
@@ -77,4 +92,56 @@ hr{
         background-color: lightblue;
     }
     caption-side: bottom;
+}
+
+a{
+    display: block;
+}
+
+#a1{
+    border-style: solid;
+}
+
+#a2{
+    border-style: double;
+}
+
+#a3{
+    border-style: dotted;
+}
+
+#a4{
+    border-style: dashed;
+}
+
+#a5{
+    border-style: ridge;
+    border-color: red;
+    border-width: 10px;
+}
+
+#a6{
+    border-style: inset;
+    border-color: blue;
+    border-width: 10px;
+}
+
+#a7{
+    border-right-style: outset;
+    border-left-style: double;
+    border-top-style: solid;
+    border-bottom-style: dashed;
+    border-radius: 10px;
+    border-color: green;
+    border-width: 10px;
+    outline-style: dashed;
+    outline-width: 0px;
+}
+
+#a8{
+    display: none;
+}
+
+#first-child:first-child{
+    color:blue
 }
